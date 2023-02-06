@@ -1,0 +1,130 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 309, 205
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Тест"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,234,184,50,14
+    GROUPBOX        "Дата независимости Украины:",IDC_STATIC,7,12,295,49
+    CONTROL         "12 августа 1991 года",IDC_RADIO1A,"Button",BS_AUTORADIOBUTTON | WS_GROUP,20,27,89,10
+    CONTROL         "24 августа 1991 года",IDC_RADIO1B,"Button",BS_AUTORADIOBUTTON,20,41,89,10
+    CONTROL         "24 августа 1992 года",IDC_RADIO1C,"Button",BS_AUTORADIOBUTTON,154,27,89,10
+    CONTROL         "2 сентября 1991 года",IDC_RADIO1D,"Button",BS_AUTORADIOBUTTON,154,41,89,10
+    GROUPBOX        "Первый Президент Украины:",IDC_STATIC,7,73,295,49
+    CONTROL         "Виктор Андреевич Ющенко",IDC_RADIO2A,"Button",BS_AUTORADIOBUTTON | WS_GROUP,20,88,110,10
+    CONTROL         "Леонид Данилович Кучма",IDC_RADIO2B,"Button",BS_AUTORADIOBUTTON,20,102,103,10
+    CONTROL         "Леонид Макарович Кравчук",IDC_RADIO2C,"Button",BS_AUTORADIOBUTTON,154,88,111,10
+    CONTROL         "Владимир Александрович Зеленский",IDC_RADIO2D,"Button",BS_AUTORADIOBUTTON,154,102,141,10
+    GROUPBOX        "Дата принятия Конституции Украины:",IDC_STATIC,7,132,295,49
+    CONTROL         "27 июля 1992 года",IDC_RADIO3A,"Button",BS_AUTORADIOBUTTON | WS_GROUP,20,148,80,10
+    CONTROL         "28 июля 1992 года",IDC_RADIO3B,"Button",BS_AUTORADIOBUTTON,20,162,80,10
+    CONTROL         "27 июля 1996 года",IDC_RADIO3C,"Button",BS_AUTORADIOBUTTON,154,148,80,10
+    CONTROL         "28 июля 1996 года",IDC_RADIO3D,"Button",BS_AUTORADIOBUTTON,154,162,80,10
+    LTEXT           "",IDC_STATIC_TIME,234,7,50,8
+    CONTROL         "",IDC_PROGRESS,"msctls_progress32",WS_BORDER,35,184,100,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 302
+        VERTGUIDE, 20
+        VERTGUIDE, 154
+        VERTGUIDE, 259
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 198
+        HORZGUIDE, 15
+        HORZGUIDE, 27
+        HORZGUIDE, 41
+        HORZGUIDE, 73
+        HORZGUIDE, 132
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
